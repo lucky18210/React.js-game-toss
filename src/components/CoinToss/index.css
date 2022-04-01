@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  padding: 50px 20px 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+
+.coin-toss-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.game-heading {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #a35200;
+}
+
+@media screen and (min-width: 768px) {
+  .game-heading {
+    font-size: 35px;
+  }
+}
+
+.game-sub-heading {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+}
+
+.image-container {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heads-tails-image {
+  width: 180px;
+  height: 180px;
+  padding: 20px;
+}
+
+.toss-coin-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-coin-button {
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  padding: 10px 20px 10px 20px;
+  border-width: 0px;
+  width: 160px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.scores-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 55px;
+}
+@media screen and (min-width: 500px) {
+  .scores-container {
+    flex-direction: row;
+  }
+}
+.total-score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-status,
+.score-text {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .score-status,
+  .score-text {
+    font-size: 18px;
+  }
+}
